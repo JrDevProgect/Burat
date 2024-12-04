@@ -3,7 +3,7 @@ process.on('uncaughtException', error => console.log(error));
 
 const fs = require('fs');
 const path = require('path');
-const login = require('./fca-priyansh');
+const login = require('fca-priyansh');
 const express = require('express');
 
 const config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
