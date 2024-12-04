@@ -1,7 +1,6 @@
 {
   "apiOptions": {
     "forceLogin": false,
-        "logLevel": "silent",
         "selfListen": false,
         "autoReconnect": false,
         "updatePresence": false,
